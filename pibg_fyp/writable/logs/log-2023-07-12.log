@@ -1,0 +1,816 @@
+INFO - 2023-07-12 03:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 03:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 03:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 03:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 03:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 03:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 03:03:21 --> Object of class App\Models\ParentModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 03:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 03:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 03:10:16 --> Undefined property: App\Controllers\AdminController::$input
+in APPPATH\Controllers\AdminController.php on line 126.
+ 1 APPPATH\Controllers\AdminController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$input', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Controllers\\AdminController.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 03:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 03:11:23 --> Call to undefined method App\Models\StudentModel::getAllStudents
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(133): CodeIgniter\Model->__call('getAllStudents', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 03:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 03:11:33 --> Call to undefined method App\Models\StudentModel::getAllStudents
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(133): CodeIgniter\Model->__call('getAllStudents', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 04:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 04:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 04:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 04:43:36 --> Call to undefined method App\Models\StudentModel::updateStudents
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdminController.php(146): CodeIgniter\Model->__call('updateStudents', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 04:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 04:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 04:54:08 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(142): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 04:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 04:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 04:55:14 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(142): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 04:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 04:55:43 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(142): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 04:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 04:57:06 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(142): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 04:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 04:58:04 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(145): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 04:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 04:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 04:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 04:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 04:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 04:59:16 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(145): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 04:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 05:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 05:19:15 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(145): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 05:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 05:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 05:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 05:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 05:20:29 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(145): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 05:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 05:21:19 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(145): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 05:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 05:23:13 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(147): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 05:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 05:25:45 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(147): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 05:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 05:30:38 --> Undefined variable $studentInfo
+in APPPATH\Views\dashboard\assign.php on line 124.
+ 1 APPPATH\Views\dashboard\assign.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(147): view('dashboard/assign')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 05:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 05:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 05:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 05:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 05:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 05:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 06:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 06:10:35 --> Undefined variable $parentInfo
+in APPPATH\Views\dashboard\assign.php on line 184.
+ 1 APPPATH\Views\dashboard\assign.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parentInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(147): view('dashboard/assign', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 06:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 06:23:31 --> Undefined variable $parentModel
+in APPPATH\Controllers\AdminController.php on line 132.
+ 1 APPPATH\Controllers\AdminController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parentModel', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Controllers\\AdminController.php', 132)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 06:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 06:24:01 --> Undefined variable $parentModel
+in APPPATH\Controllers\AdminController.php on line 132.
+ 1 APPPATH\Controllers\AdminController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parentModel', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Controllers\\AdminController.php', 132)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 06:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 06:25:10 --> Undefined variable $parentModel
+in APPPATH\Controllers\AdminController.php on line 132.
+ 1 APPPATH\Controllers\AdminController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parentModel', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Controllers\\AdminController.php', 132)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 06:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 06:28:47 --> Undefined variable $userInfo
+in APPPATH\Views\layout\dashboard-admin.php on line 60.
+ 1 APPPATH\Views\layout\dashboard-admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\layout\\dashboard-admin.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\layout\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/dashboard-admin', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 6 APPPATH\Controllers\AdminController.php(152): view('dashboard/assign', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 06:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 06:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 06:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 06:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 06:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 06:29:21 --> Undefined variable $userInfo
+in APPPATH\Views\layout\dashboard-admin.php on line 60.
+ 1 APPPATH\Views\layout\dashboard-admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userInfo', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\layout\\dashboard-admin.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\layout\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/dashboard-admin', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 6 APPPATH\Controllers\AdminController.php(152): view('dashboard/assign', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 06:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 06:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 06:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 06:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 08:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:18:58 --> Undefined array key "fld_name"
+in APPPATH\Controllers\AdminController.php on line 141.
+ 1 APPPATH\Controllers\AdminController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fld_name"', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Controllers\\AdminController.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:19:24 --> in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH\Controllers\AdminController.php on line 136.
+ 1 APPPATH\Controllers\AdminController.php(136): in_array('1', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:25:48 --> Call to undefined function getAssignedChildren()
+in APPPATH\Views\dashboard\assign.php on line 188.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 4 APPPATH\Controllers\AdminController.php(159): view('dashboard/assign', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:27:38 --> Call to undefined function getAssignedChildren()
+in APPPATH\Views\dashboard\assign.php on line 188.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 4 APPPATH\Controllers\AdminController.php(107): view('dashboard/assign', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assign()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:28:58 --> Call to undefined method CodeIgniter\View\View::getAssignedChildren()
+in APPPATH\Views\dashboard\assign.php on line 188.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 4 APPPATH\Controllers\AdminController.php(107): view('dashboard/assign', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assign()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:29:04 --> Call to undefined method CodeIgniter\View\View::getAssignedChildren()
+in APPPATH\Views\dashboard\assign.php on line 188.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 4 APPPATH\Controllers\AdminController.php(107): view('dashboard/assign', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assign()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:36:16 --> in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH\Controllers\AdminController.php on line 136.
+ 1 APPPATH\Controllers\AdminController.php(136): in_array('1', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:36:48 --> in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH\Controllers\AdminController.php on line 136.
+ 1 APPPATH\Controllers\AdminController.php(136): in_array('1', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:37:02 --> in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH\Controllers\AdminController.php on line 136.
+ 1 APPPATH\Controllers\AdminController.php(136): in_array('1', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:43:34 --> Undefined variable $preAssignedChildren
+in APPPATH\Views\dashboard\assign.php on line 252.
+ 1 APPPATH\Views\dashboard\assign.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $preAssignedChildren', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(107): view('dashboard/assign', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assign()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:44:43 --> Undefined variable $preAssignedChildren
+in APPPATH\Views\dashboard\assign.php on line 237.
+ 1 APPPATH\Views\dashboard\assign.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $preAssignedChildren', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 237)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(107): view('dashboard/assign', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assign()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:45:48 --> Undefined variable $preAssignedChildren
+in APPPATH\Views\dashboard\assign.php on line 237.
+ 1 APPPATH\Views\dashboard\assign.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $preAssignedChildren', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 237)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(107): view('dashboard/assign', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assign()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:46:32 --> Undefined variable $preAssignedChildren
+in APPPATH\Views\dashboard\assign.php on line 237.
+ 1 APPPATH\Views\dashboard\assign.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $preAssignedChildren', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 237)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(107): view('dashboard/assign', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assign()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:48:04 --> Undefined variable $preAssignedChildren
+in APPPATH\Views\dashboard\assign.php on line 237.
+ 1 APPPATH\Views\dashboard\assign.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $preAssignedChildren', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 237)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(107): view('dashboard/assign', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assign()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 10:48:50 --> in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH\Controllers\AdminController.php on line 136.
+ 1 APPPATH\Controllers\AdminController.php(136): in_array('1', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 10:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 10:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 11:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 11:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 11:10:48 --> Undefined array key "fld_phone"
+in APPPATH\Views\dashboard\assign.php on line 156.
+ 1 APPPATH\Views\dashboard\assign.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fld_phone"', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 156)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(107): view('dashboard/assign', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assign()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 11:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 13:27:02 --> Undefined array key "fld_name"
+in APPPATH\Views\layout\dashboard-admin.php on line 60.
+ 1 APPPATH\Views\layout\dashboard-admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fld_name"', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\layout\\dashboard-admin.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\layout\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/dashboard-admin', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/homeAdmin', [], true)
+ 6 APPPATH\Controllers\AdminController.php(32): view('dashboard/homeAdmin', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 13:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 13:27:04 --> Undefined array key "fld_name"
+in APPPATH\Views\layout\dashboard-admin.php on line 60.
+ 1 APPPATH\Views\layout\dashboard-admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fld_name"', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\layout\\dashboard-admin.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\layout\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/dashboard-admin', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 6 APPPATH\Controllers\AdminController.php(107): view('dashboard/assign', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assign()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 13:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-12 13:28:41 --> mysqli_sql_exception: Table 'pibg.tbl_student' doesn't exist in D:\xampp\htdocs\pibg_fyp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\pibg_fyp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\pibg_fyp\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\pibg_fyp\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\pibg_fyp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\pibg_fyp\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\pibg_fyp\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 D:\xampp\htdocs\pibg_fyp\app\Controllers\UserController.php(100): CodeIgniter\BaseModel->find('1')
+#7 D:\xampp\htdocs\pibg_fyp\system\CodeIgniter.php(934): App\Controllers\UserController->result()
+#8 D:\xampp\htdocs\pibg_fyp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\xampp\htdocs\pibg_fyp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\pibg_fyp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-12 13:28:41 --> Table 'pibg.tbl_student' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = :tbl_student.fld_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH\Controllers\UserController.php(100): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->result()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 13:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-12 13:28:48 --> mysqli_sql_exception: Table 'pibg.tbl_student' doesn't exist in D:\xampp\htdocs\pibg_fyp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\pibg_fyp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\pibg_fyp\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\pibg_fyp\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\pibg_fyp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\pibg_fyp\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\pibg_fyp\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 D:\xampp\htdocs\pibg_fyp\app\Controllers\UserController.php(100): CodeIgniter\BaseModel->find('1')
+#7 D:\xampp\htdocs\pibg_fyp\system\CodeIgniter.php(934): App\Controllers\UserController->result()
+#8 D:\xampp\htdocs\pibg_fyp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\xampp\htdocs\pibg_fyp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\pibg_fyp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-12 13:28:48 --> Table 'pibg.tbl_student' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = :tbl_student.fld_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH\Controllers\UserController.php(100): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->result()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 13:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 13:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 14:26:39 --> Undefined array key "fld_parent"
+in APPPATH\Views\dashboard\assign.php on line 158.
+ 1 APPPATH\Views\dashboard\assign.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fld_parent"', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 158)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(174): view('dashboard/assign', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assignChildren()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 14:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 14:42:21 --> Undefined variable $parents
+in APPPATH\Views\dashboard\assign.php on line 26.
+ 1 APPPATH\Views\dashboard\assign.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parents', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\assign.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/assign', [], true)
+ 5 APPPATH\Controllers\AdminController.php(107): view('dashboard/assign', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->assign()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 14:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-12 14:58:13 --> mysqli_sql_exception: Table 'pibg.tbl_student' doesn't exist in D:\xampp\htdocs\pibg_fyp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\pibg_fyp\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\pibg_fyp\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\pibg_fyp\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\pibg_fyp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\pibg_fyp\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\pibg_fyp\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 D:\xampp\htdocs\pibg_fyp\app\Controllers\UserController.php(100): CodeIgniter\BaseModel->find('1')
+#7 D:\xampp\htdocs\pibg_fyp\system\CodeIgniter.php(934): App\Controllers\UserController->result()
+#8 D:\xampp\htdocs\pibg_fyp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\xampp\htdocs\pibg_fyp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\pibg_fyp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-12 14:58:13 --> Table 'pibg.tbl_student' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_student`
+WHERE `tbl_student`.`fld_id` = :tbl_student.fld_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH\Controllers\UserController.php(100): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->result()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 14:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 15:06:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\dashboard\resultTeacher.php on line 87.
+ 1 APPPATH\Views\dashboard\resultTeacher.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\resultTeacher.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\resultTeacher.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/resultTeacher', [], true)
+ 5 APPPATH\Controllers\TeacherController.php(88): view('dashboard/resultTeacher', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TeacherController->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TeacherController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 15:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 15:14:32 --> Undefined array key "fld_year"
+in APPPATH\Views\dashboard\resultTeacher.php on line 87.
+ 1 APPPATH\Views\dashboard\resultTeacher.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fld_year"', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\resultTeacher.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\resultTeacher.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/resultTeacher', [], true)
+ 5 APPPATH\Controllers\TeacherController.php(89): view('dashboard/resultTeacher', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TeacherController->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TeacherController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 15:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 15:15:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\dashboard\resultTeacher.php on line 87.
+ 1 APPPATH\Views\dashboard\resultTeacher.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\resultTeacher.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\resultTeacher.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/resultTeacher', [], true)
+ 5 APPPATH\Controllers\TeacherController.php(89): view('dashboard/resultTeacher', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TeacherController->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TeacherController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 15:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 15:16:29 --> Undefined array key "fld_cn"
+in APPPATH\Views\dashboard\resultTeacher.php on line 100.
+ 1 APPPATH\Views\dashboard\resultTeacher.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fld_cn"', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\resultTeacher.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\resultTeacher.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/resultTeacher', [], true)
+ 5 APPPATH\Controllers\TeacherController.php(89): view('dashboard/resultTeacher', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TeacherController->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TeacherController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 15:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 15:37:20 --> Undefined variable $activity
+in APPPATH\Views\dashboard\resultTeacher.php on line 62.
+ 1 APPPATH\Views\dashboard\resultTeacher.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activity', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\resultTeacher.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\resultTeacher.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/resultTeacher', [], true)
+ 5 APPPATH\Controllers\TeacherController.php(89): view('dashboard/resultTeacher', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TeacherController->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TeacherController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-12 15:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 15:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

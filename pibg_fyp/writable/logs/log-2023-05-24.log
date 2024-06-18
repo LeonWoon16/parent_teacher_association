@@ -1,0 +1,116 @@
+INFO - 2023-05-24 08:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 08:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 08:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 08:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 08:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 08:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 08:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 08:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 08:14:48 --> Undefined variable $records
+in APPPATH\Views\dashboard\activity.php on line 15.
+ 1 APPPATH\Views\dashboard\activity.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/activity', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('dashboard/activity', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->activity()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 08:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 08:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 08:17:27 --> Undefined variable $records
+in APPPATH\Views\dashboard\activity.php on line 15.
+ 1 APPPATH\Views\dashboard\activity.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/activity', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('dashboard/activity', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->activity()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 08:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 08:18:30 --> Undefined variable $records
+in APPPATH\Views\dashboard\activity.php on line 15.
+ 1 APPPATH\Views\dashboard\activity.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/activity', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('dashboard/activity', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->activity()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 08:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 08:18:33 --> Undefined variable $records
+in APPPATH\Views\dashboard\activity.php on line 15.
+ 1 APPPATH\Views\dashboard\activity.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/activity', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('dashboard/activity', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->activity()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 08:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 08:19:20 --> Undefined variable $records
+in APPPATH\Views\dashboard\activity.php on line 15.
+ 1 APPPATH\Views\dashboard\activity.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/activity', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('dashboard/activity', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->activity()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 08:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 08:20:23 --> Undefined variable $records
+in APPPATH\Views\dashboard\activity.php on line 15.
+ 1 APPPATH\Views\dashboard\activity.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/activity', [], true)
+ 5 APPPATH\Controllers\UserController.php(69): view('dashboard/activity', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->activity()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 08:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 08:20:25 --> Undefined variable $records
+in APPPATH\Views\dashboard\activity.php on line 15.
+ 1 APPPATH\Views\dashboard\activity.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/activity', [], true)
+ 5 APPPATH\Controllers\UserController.php(69): view('dashboard/activity', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->activity()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 08:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 08:23:58 --> Undefined variable $records
+in APPPATH\Views\dashboard\activity.php on line 15.
+ 1 APPPATH\Views\dashboard\activity.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/activity', [], true)
+ 5 APPPATH\Controllers\UserController.php(69): view('dashboard/activity', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->activity()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 08:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-24 08:26:39 --> Undefined variable $records
+in APPPATH\Views\dashboard\activity.php on line 15.
+ 1 APPPATH\Views\dashboard\activity.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\pibg_fyp\\app\\Views\\dashboard\\activity.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/activity', [], true)
+ 5 APPPATH\Controllers\UserController.php(69): view('dashboard/activity', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->activity()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

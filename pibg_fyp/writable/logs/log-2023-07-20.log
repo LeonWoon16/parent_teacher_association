@@ -1,0 +1,97 @@
+INFO - 2023-07-20 13:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-20 13:18:20 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 VENDORPATH\composer\ClassLoader.php(582): include('D:\\xampp\\htdocs\\pibg_fyp\\system\\Debug\\Exceptions.php')
+ 2 VENDORPATH\composer\ClassLoader.php(433): Composer\Autoload\{closure}('D:\\xampp\\htdocs\\pibg_fyp\\app\\ThirdParty\\paypal\\vendor\\composer/../paypal/rest-api-sdk-php/lib\\PayPal\\Transport\\PayPalRestCall.php')
+ 3 APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(101): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"redirect_urls":{"return_url":"http://localhost/donation/success?amount=800","cancel_url":"http://localhost/donation/cancel"},"transactions":[{"amount":{"currency":"MYR","total":"800"},"description":"Payment description","invoice_number":"64b9341c02a6b"}]}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\CrowdfundingController.php(91): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CrowdfundingController->donate()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrowdfundingController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-20 13:18:21 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 VENDORPATH\composer\ClassLoader.php(582): include('D:\\xampp\\htdocs\\pibg_fyp\\system\\Debug\\Exceptions.php')
+ 2 VENDORPATH\composer\ClassLoader.php(433): Composer\Autoload\{closure}('D:\\xampp\\htdocs\\pibg_fyp\\app\\ThirdParty\\paypal\\vendor\\composer/../paypal/rest-api-sdk-php/lib\\PayPal\\Core\\PayPalHttpConfig.php')
+ 3 APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(56): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"redirect_urls":{"return_url":"http://localhost/donation/success?amount=800","cancel_url":"http://localhost/donation/cancel"},"transactions":[{"amount":{"currency":"MYR","total":"800"},"description":"Payment description","invoice_number":"64b9341c02a6b"}]}', null)
+ 5 APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"redirect_urls":{"return_url":"http://localhost/donation/success?amount=800","cancel_url":"http://localhost/donation/cancel"},"transactions":[{"amount":{"currency":"MYR","total":"800"},"description":"Payment description","invoice_number":"64b9341c02a6b"}]}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\CrowdfundingController.php(91): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CrowdfundingController->donate()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrowdfundingController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-20 13:18:22 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 56.
+ 1 VENDORPATH\composer\ClassLoader.php(582): include('D:\\xampp\\htdocs\\pibg_fyp\\system\\Debug\\Exceptions.php')
+ 2 VENDORPATH\composer\ClassLoader.php(433): Composer\Autoload\{closure}('D:\\xampp\\htdocs\\pibg_fyp\\app\\ThirdParty\\paypal\\vendor\\composer/../paypal/rest-api-sdk-php/lib\\PayPal\\Cache\\AuthorizationCache.php')
+ 3 APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(131): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(82): PayPal\Auth\OAuthTokenCredential->getAccessToken([])
+ 5 APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(75): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"redirect_urls":{"return_url":"http://localhost/donation/success?amount=800","cancel_url":"http://localhost/donation/cancel"},"transactions":[{"amount":{"currency":"MYR","total":"800"},"description":"Payment description","invoice_number":"64b9341c02a6b"}]}', [...])
+ 6 APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"redirect_urls":{"return_url":"http://localhost/donation/success?amount=800","cancel_url":"http://localhost/donation/cancel"},"transactions":[{"amount":{"currency":"MYR","total":"800"},"description":"Payment description","invoice_number":"64b9341c02a6b"}]}', [])
+ 7 APPPATH\ThirdParty\paypal\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"redirect_urls":{"return_url":"http://localhost/donation/success?amount=800","cancel_url":"http://localhost/donation/cancel"},"transactions":[{"amount":{"currency":"MYR","total":"800"},"description":"Payment description","invoice_number":"64b9341c02a6b"}]}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\CrowdfundingController.php(91): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CrowdfundingController->donate()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrowdfundingController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-20 13:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 13:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 14:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 14:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 14:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 14:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 14:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 14:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 14:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 22:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 23:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
